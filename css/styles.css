@@ -105,7 +105,14 @@ section {
 .header-text-web {color: #2196F3;}
 .header-text-studio {color: #000000;}
 
-.header-item:hover, .header-item:focus, .header-item:active {color: #2196F3;}
+.header-item:hover, .header-item:focus {color: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+.header-item-after {
+    position: relative;
+    
+}
+
 
 .header-list-adress  {
     display: flex;
@@ -124,6 +131,19 @@ section {
 .header-list-adress:hover, .header-list-adress:focus, .header-list-adress:active {color: #2196F3;}
 
 .active-link {color: #2196F3;}
+
+.active-link::after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 0%;
+    width: 100%;
+    height: 4px;
+    opacity: 1;
+    background: #2196F3;
+    border-radius: 2px;
+    }
 
 .icon-mail {
     display: flex;
