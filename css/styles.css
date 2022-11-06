@@ -153,7 +153,7 @@ section {
     justify-content: center;
     
 }
-.icon-mail:hover,.icon-mail:focus,.icon-mail:active {color: #2196F3;}
+.icon-mail:hover,.icon-mail:focus,.icon-mail:active {color: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
 
 .icon-tel {
     display: flex;
@@ -229,7 +229,7 @@ section {
     cursor: pointer;
     }
 
-.cap-button:hover, .cap-button:focus, .cap-button:active {background: #188CE8;}
+.cap-button:hover, .cap-button:focus, .cap-button:active {background: #188CE8; transition: cubic-bezier(0.4, 0, 0.2, 1);}
 /* styles features */
 
 .div-features {
@@ -323,6 +323,28 @@ section {
 
 .we-do-list > li:not(:last-child) {margin-right: 30px;}
 
+.we-do-img {
+    position: relative;
+}
+
+.we-do-p {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
 /* styses Our-team */
 
 .our-team {
@@ -404,8 +426,8 @@ section {
     fill: currentColor;
     }
 
-.our-team-icon:hover, .our-team-icon:focus, .our-team-icon:active {background: #2196F3}
-.our-team-icon:hover,.our-team-icon:focus,.our-team-icon:active {color: #FFFFFF;}
+.our-team-icon:hover, .our-team-icon:focus, .our-team-icon:active {background: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
+.our-team-icon:hover,.our-team-icon:focus,.our-team-icon:active {color: #FFFFFF; transition: cubic-bezier(0.4, 0, 0.2, 1);}
 
 /* Regular customers Постійні клієнти */
 
@@ -432,7 +454,7 @@ section {
     fill: currentColor;
 }
 
-.regular-customers-icon:hover,.regular-customers-icon:focus,.regular-customers-icon:active {border-color: #2196F3; color: #2196F3;}
+.regular-customers-icon:hover,.regular-customers-icon:focus,.regular-customers-icon:active {border-color: #2196F3; color: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
 
 
 .regular-customers-h2 {
@@ -513,8 +535,8 @@ section {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);}
 
-.footer-item:hover, .footer-item:focus, .footer-item:active {color: #2196F3;}
-.footer-adres-item:hover, .footer-adres-item:focus, .footer-adres-item:active {color: #2196F3;}
+.footer-item:hover, .footer-item:focus, .footer-item:active {color: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
+.footer-adres-item:hover, .footer-adres-item:focus, .footer-adres-item:active {color: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
     
 .div-footer-icon {
     display: flex;
@@ -536,7 +558,7 @@ section {
     border-radius: 50%;
 }
 
-.footer-icon:hover,.footer-icon:focus,.footer-icon:active {background: #2196F3;}
+.footer-icon:hover,.footer-icon:focus,.footer-icon:active {background: #2196F3; transition: cubic-bezier(0.4, 0, 0.2, 1);}
 
 /* STYSES FOR PORTFOLIO.HTML*/
 
@@ -607,9 +629,9 @@ section {
     cursor: pointer;}
 
     .button-all:hover, .button-all:focus, .button-all:active {background: #2196F3; color: #F5F4FA; 
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); transition: cubic-bezier(0.4, 0, 0.2, 1);}
     .filters-button:hover, .filters-button:focus, .filters-button:active {background: #2196F3; color: #F5F4FA; 
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); transition: cubic-bezier(0.4, 0, 0.2, 1);}
 
     /* styles portfolio list */
 
@@ -649,5 +671,5 @@ section {
 }
 
 .portfolio-link:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
