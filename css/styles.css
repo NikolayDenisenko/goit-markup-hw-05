@@ -328,8 +328,8 @@ section {
 }
 
 .we-do-p {
+   display: flex;
     position: absolute;
-    display: inline-block;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -339,6 +339,7 @@ section {
     font-size: 14px;
     line-height: calc(16/14);
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
